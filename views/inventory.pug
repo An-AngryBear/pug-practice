@@ -1,0 +1,7 @@
+extends index.pug
+
+block content
+    each pastry in pastries
+        p #{pastry.name}: #{pastry.price}
+
+    p #{url}
